@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsExport", "WinformsExport\WinFormsExport.csproj", "{70C0861A-4389-440E-9842-8F4A5C5936B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugTest_NoLegacyBinding|Any CPU = DebugTest_NoLegacyBinding|Any CPU
+		DebugTest|Any CPU = DebugTest|Any CPU
+		PerformanceTest|Any CPU = PerformanceTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70C0861A-4389-440E-9842-8F4A5C5936B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C0861A-4389-440E-9842-8F4A5C5936B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C0861A-4389-440E-9842-8F4A5C5936B4}.DebugTest_NoLegacyBinding|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C0861A-4389-440E-9842-8F4A5C5936B4}.DebugTest_NoLegacyBinding|Any CPU.Build.0 = Debug|Any CPU
+		{70C0861A-4389-440E-9842-8F4A5C5936B4}.DebugTest|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C0861A-4389-440E-9842-8F4A5C5936B4}.DebugTest|Any CPU.Build.0 = Debug|Any CPU
+		{70C0861A-4389-440E-9842-8F4A5C5936B4}.PerformanceTest|Any CPU.ActiveCfg = Release|Any CPU
+		{70C0861A-4389-440E-9842-8F4A5C5936B4}.PerformanceTest|Any CPU.Build.0 = Release|Any CPU
+		{70C0861A-4389-440E-9842-8F4A5C5936B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C0861A-4389-440E-9842-8F4A5C5936B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D93316A1-C063-46A4-91A4-C3F63280A564}
+	EndGlobalSection
+EndGlobal
