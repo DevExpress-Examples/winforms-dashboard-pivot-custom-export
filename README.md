@@ -1,5 +1,6 @@
 <!-- default badges list -->
-Automatically generated badges
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/642271334/2023.1)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
 # Dashboard for WinForms - How to Export the Customized Pivot Grid Item
