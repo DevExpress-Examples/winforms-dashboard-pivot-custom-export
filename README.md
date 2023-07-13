@@ -1,51 +1,51 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/642271334/2023.1)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1166847)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+Automatically generated badges
 <!-- default badges end -->
 
 # Dashboard for WinForms - How to Export the Customized Pivot Grid Item
 
-The following example customizes the Pivot Grid Dashboard item (in an exported document) via the `DashboardDesigner.CustomExport` event.  
+The example shows how to customize the Pivot Grid dashboard item in the exported document when you handle the `DashboardDesigner.CustomExport` event.  
 
 ## Example Overview
 
-This sample includes multiple Pivot Grid items with different customization settings. The `e.GetPrintableControl` obtains XRPivotGrid printable controls and allows you to apply different customization settings for each item.
+This example contains several Pivot Grid items with different customization settings. The `e.GetPrintableControl` obtains the `XRPivotGrid` printable controls, and allows you to apply different customization settings for each item. 
 
-### Remove Specified Columns and Rows 
+### Example Overview
 
-The [CustomFieldValueCells](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.CustomFieldValueCells) event removes the "Kirkland" row and "1" / "3" quarter columns by name within the `PivotCustomFieldValueCells` event handler. 
+#### Remove Specified Columns and Rows 
+
+The [CustomFieldValueCells](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.CustomFieldValueCells) event removes the "Kirkland" row and "1" and "3" quarter columns by names in the `PivotCustomFieldValueCells` event handler. 
 
 ![Remove Specified Columns and Rows](Images/pivotitem1.png)
 
-### Rename Columns 
+#### Rename Columns 
 
-The [FieldValueDisplayText](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.FieldValueDisplayText) event changes display text for `OrderDate` field quarter columns within the `PivotFieldValueDisplayText` event handler.
+The [FieldValueDisplayText](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.FieldValueDisplayText) event changes the display text in the quarter columns of the `OrderDate` field in the `PivotFieldValueDisplayText` event handler.
 
 ![Rename Columns](Images/pivotitem2.png)
 
-### Remove Rows by Value
+#### Remove Rows by Value
 
-The [CustomFieldValueCells](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.CustomFieldValueCells) event removes all rows whose grand total value is less than 200 within the `PivotCustomFieldValueCellsVals` event handler.
+The [CustomFieldValueCells](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.CustomFieldValueCells) event removes all rows whose grand total value is less than 200 in the `PivotCustomFieldValueCellsVals` event handler.
 
 ![Remove Rows by Value](Images/pivotitem3.png)
 
-### Resize Columns and Rows
+#### Resize Columns and Rows
 
-The [CustomColumnWidth](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.CustomColumnWidth) event sets the width of the "2" quarter column (in the exported document) within the `PivotCustomColumnWidth` event handler. 
-The [CustomRowHeight](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.CustomRowHeight) event sets the height of the "London" data row (in the exported document) in the `PivotCustomRowHeight` event handler.
+The [CustomColumnWidth](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.CustomColumnWidth) event sets the width of the "2" quarter column in the exported document in the `PivotCustomColumnWidth` event handler. 
+The [CustomRowHeight](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.CustomRowHeight) event sets the height of the "London" row in the exported document in the `PivotCustomRowHeight` event handler.
 
 ![Resize Columns and Rows](Images/pivotitem4.png)
 
-### Change Row Appearance 
+#### Change Row Appearance 
 
-The [PrintFieldValue](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.PrintFieldValue) event customizes the appearance of the "Seattle" data row within the `PivotPrintFieldValue` event handler.
+The [PrintFieldValue](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.PrintFieldValue) event customizes the appearance of the "Seattle" row in the `PivotPrintFieldValue` event handler.
 
 ![Change Row Appearance](Images/pivotitem5.png)
 
-### Customize Grand Totals 
+#### Customize Grand Totals 
 
-The [CustomFieldValueCells](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.CustomFieldValueCells) event changes Grand Total column position to `near` within the `PivotCustomFieldValueCellsResults` event handler. The [ShowRowGrandTotals](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotGridOptionsViewBase.ShowRowGrandTotals) property is set to `false` and hides the Grand Total row.
+The [CustomFieldValueCells](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XRPivotGrid.CustomFieldValueCells) event changes the Grand Total column position to `near` in the `PivotCustomFieldValueCellsResults` event handler. The [ShowRowGrandTotals](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotGridOptionsViewBase.ShowRowGrandTotals) property that is set to `false` hides the Grand Total row.
 
 ![Customize Grand Totals](Images/pivotitem6.png)
 
