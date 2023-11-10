@@ -1,7 +1,5 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/642271334/2023.1)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1166847)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+Automatically generated badges
 <!-- default badges end -->
 
 # Dashboard for WinForms - How to Export the Customized Pivot Grid Item
@@ -53,8 +51,8 @@ The [CustomFieldValueCells](https://docs.devexpress.com/XtraReports/DevExpress.X
 
 ## Files to Review
 
-- [Program.cs](./CS/WinformsExport/Program.cs) ([Program.vb](./VB/WinformsExport/Program.vb))
-- [Form1.cs](./CS/WinformsExport/Form1.cs) ([Form1.vb](./VB/WinformsExport/Form1.vb))
+- [Program.cs](./CS/WinFormsExport/Program.cs) ([Program.vb](./VB/WinFormsExport/Program.vb))
+- [Form1.cs](./CS/WinFormsExport/Form1.cs) ([Form1.vb](./VB/WinFormsExport/Form1.vb))
 
 ## Documentation
 
