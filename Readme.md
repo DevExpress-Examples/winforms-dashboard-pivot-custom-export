@@ -67,7 +67,7 @@ The [CustomFieldValueCells](https://docs.devexpress.com/XtraReports/DevExpress.X
 - [Dashboard for WinForms - How to Export Customized Pie Dashboard Item](https://github.com/DevExpress-Examples/WinForms-Dashboard-How-to-export-customized-Pie-Dashboard-Item)
 - [Dashboard for WinForms - How to Display Custom Information in the Exported Dashboard](https://github.com/DevExpress-Examples/winforms-dashboard-how-to-add-custom-information-to-the-exported-dashboard-t466558)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-dashboard-pivot-custom-export&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-dashboard-pivot-custom-export&~~~was_helpful=no)
 
